@@ -1,0 +1,63 @@
+@font-face{
+    font-family: lora;
+    src: url(./lora.ttf);
+}
+@font-face{
+    font-family: poppins;
+    src: url(./poppins.ttf);
+}
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    font-size: 18px;
+}
+body{
+    background-color: rgb(221, 149, 42);
+    background: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrap{
+    width: 450px;
+    background-color: antiquewhite;
+    padding: 70px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.container{
+    width: 40%;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid rgb(255, 209, 141);
+    margin-top: 8px;
+    padding: 0 10px;
+    /* -moz-appearance: textfield; */
+}
+input:focus{
+    border-color: rgb(221, 149, 42);
+}
+input:invalid{
+    color: red;
+}
+input:valid{
+    color: blue;
+}
+input::placeholder{
+    font-size: 12px;
+    color: black;
+}

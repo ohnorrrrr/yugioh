@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fahr To Celsius Converter</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="container">
+            <label for="Celsius">Celsius</label>
+            <input type="number" id="Celsius" placeholder="Enter a Number" oninput="convertCelsiusToFahr()" oninvalid="celerror()" onkeypress="return event.charCode>=48 && event.charCode<=57" required/>
+        </div>
+        <div class="container">
+            <label for="Fahr">Fahrenheit</label>
+            <input type="number" id="Fahr" placeholder="Enter a Number" oninput="convertFahrToCelsius()" oninvalid="fahrerror()" onkeypress="return event.charCode>=48 && event.charCode<=57" required/>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
