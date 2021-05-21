@@ -1,1 +1,1 @@
-https://ohnorrrrr.github.io/JS/
+https://ohnorrrrr.github.io/yugioh/
